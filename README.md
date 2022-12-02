@@ -1,16 +1,19 @@
 # learning_flutter_freezed
 
-A new Flutter project.
+A flutter project whose aim is to explore the freezed package and its functionality on models.
 
-## Getting Started
+## A flutter project made using
+- **Freezed** a code generator for data-classes/unions/pattern-matching/cloning [[doc]](https://pub.dev/packages/freezed)
 
-This project is a starting point for a Flutter application.
+## To run the project:
+```
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Versions used for this project:
+- Flutter: 3.3.9
+- Dart: 2.18.5
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To generate a model
+fvm flutter pub run build_runner build
